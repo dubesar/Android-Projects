@@ -60,11 +60,11 @@ class _MyWidgetState extends State<MyWidget> {
 //   });
 
   void _startTimer() async {
-    if(_isResetButtonClicked){
-        _resetTimer();
-        _isButtonDisabled = false;
-        _isResetButtonClicked = false;
-     }
+//     if(_isResetButtonClicked){
+//         _resetTimer();
+//         _isButtonDisabled = false;
+//         _isResetButtonClicked = false;
+//      }
     while(_timerMin>0 || _timerSecond>0){
       if(_isResetButtonClicked){
         _resetTimer();
