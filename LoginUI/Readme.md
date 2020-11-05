@@ -70,7 +70,7 @@ class MyWidget extends StatelessWidget {
 }
 ```
 
-* Example-2 
+* Example-2  - [Link to the Repository](https://github.com/MarcusNg/flutter_login_ui) 
 
 ```dart
 import 'package:flutter/material.dart';
